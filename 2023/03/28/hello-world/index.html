@@ -4,19 +4,46 @@
   <meta charset="utf-8">
   
   
-  <title>Hello World | Hexo</title>
+  <title>实验三 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="姓名：臧传超          学号：202000130052        班级：20数据 实验步骤与内容一、准备工作1、node.jsNode.js是⼀种基于JavaScript语⾔的后端运⾏环境，它使⽤V8 JavaScript引擎来执⾏代码，并提供了许多内置 模块，如⽂件系统、⽹络通信和流处理等，使开发⼈员能够构建⾼性能、可伸缩、实时和数据密集型应⽤程序。Node.js的主要⽤途是构建We">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
+<meta property="og:title" content="实验三">
 <meta property="og:url" content="http://example.com/2023/03/28/hello-world/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="姓名：臧传超          学号：202000130052        班级：20数据 实验步骤与内容一、准备工作1、node.jsNode.js是⼀种基于JavaScript语⾔的后端运⾏环境，它使⽤V8 JavaScript引擎来执⾏代码，并提供了许多内置 模块，如⽂件系统、⽹络通信和流处理等，使开发⼈员能够构建⾼性能、可伸缩、实时和数据密集型应⽤程序。Node.js的主要⽤途是构建We">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="c:\Users\17207\AppData\Roaming\Typora\typora-user-images\image-20230328101748626.png">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=N2YyMTM4NWY2M2MwZDE0NDY0NGQ4OGUxYjE5ZjBiM2FfbTNZYllzZEFmS3h3VHpUOGlVSHQxZ2x1Y1czbkt1THRfVG9rZW46RktwQWJNZHZrb1ZjdWp4NW5kNWM5cmN1bjJmXzE2Nzk5MjgwMjk6MTY3OTkzMTYyOV9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=NWVhZWNmZjJhMmI2NThjY2ViNTgxNTVlNjk5YTMyYWZfVTNxQ3RSaUEzRmdhZ25vdVRERUk4VEtNNENCWENvZFZfVG9rZW46T2FjMWIyN2hEbzA1Rzh4clBibmNNZWhhbjFkXzE2Nzk5MjgwMzc6MTY3OTkzMTYzN19WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTEyMDUyZTc1MTJjYWQxMzhlYWViMDMyNWQ0NWRhYThfa2NySWhnNjRLcUR4TDNPR1ZRYVh0T2tuUlVYQmZoOWZfVG9rZW46VFhVSGIyeFlsb3hQVzR4T1pqdGNhTkxnbnJnXzE2Nzk5MjgwNDk6MTY3OTkzMTY0OV9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=YWQ2YWY2ZTQ3ZjE0Yjg1YWRhM2M3YzY4Y2E1OTkyMmJfOFZON252YmxFOW1SbnE4SDlGeUdJVjI0cDlOTDQ5ME9fVG9rZW46Qlp6WmJUc1Jtb2tUaXh4azlSSWNPTGI2bndoXzE2Nzk5MjgwNzg6MTY3OTkzMTY3OF9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjE1NmVhNDgxMjkzNjY4OTVkNTY3NDFjYzJiMDdlODVfZnVQbmhiMjFHaEpVSUlJdFQ4d05UWTdpekFwZEl6M3lfVG9rZW46WElkeWJEVGdpb2x4Tnd4NEoxRWNlY0Uzbm9BXzE2Nzk5MjgzMjA6MTY3OTkzMTkyMF9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=MjJjOTc5ZWY3NmIxNDE4MTVkMmE3NWEyYmY4MDhjNTZfaUV6VFdvZmxUdWgwSEI2YzFtQzc1cHQ4aUNkTFZtejZfVG9rZW46RWpYYmI5QmFlbzl4b2t4RmxtNWNNc2FCbnJjXzE2Nzk5MjgzMjk6MTY3OTkzMTkyOV9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=YzQ2ZTVhMzRlYmFhZWU2ZmY2ZTBiNWU1NjI1OTc3ZjlfaDMwQkVadXhRZ1Z1RHVacHlYMXJZRTA5eFl5eG5SV1JfVG9rZW46QktwWWJubWs3b3gwTEF4OTY1QmNXblg4bnNnXzE2Nzk5MjgzNDE6MTY3OTkzMTk0MV9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=MDU5N2I2OTNmNDg3MjRlZmFmNjQ1NTFjMWM3ODZjMzhfczFqU2d2VG9rUVhUcngwRVdheHlSMDBHZzc4SEhzWE9fVG9rZW46T0ZiS2JiT29ub0NnbGh4OGdETWNWR0xxbkRnXzE2Nzk5MjgzNTc6MTY3OTkzMTk1N19WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTI3YWRkYzM4MjkxODZhZDg0MTMwOWUyYzU4NjIxZGZfeUZwMWI5NnJoN3UwMTZXSWVuQzdEcEtROExrWnd3bkRfVG9rZW46UTJ2ZmI2TWo4b1hOS1Z4U2VQUWNQQlg0bkNiXzE2Nzk5MjgzNzE6MTY3OTkzMTk3MV9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=MTJiZTExNTVhMWZiZDI5N2FjNzQ0ZWY2NGExZGRhYmNfb09TTnN3TDdIc0ZrQk1reUQ2VldIZVNaUnZWN2ZsdDdfVG9rZW46Q09BOGIwNkdnb2o5bFN4MEFYWmNydFNYbnhoXzE2Nzk5MjgzOTA6MTY3OTkzMTk5MF9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTk3NGJkNGM1YzJiZGRiOTZjMzQwNTk3YzFhZjQwOTBfcGpoMzdVVVEzZk1MQ2lEUVl6NFpuVzkzcjQwcXBxR0NfVG9rZW46R1VHRmJPZUQ4bzJpVE14clk3d2NKQm9abjZiXzE2Nzk5Mjg0MDI6MTY3OTkzMjAwMl9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=MDc5MjViYWRiNjhlNDFlMWI4N2JkZTMzYmE0Y2I0MTNfTHcxUXU4QTIyVTRvSEU1clhZR0NJN0tvRVZzeFI4OW5fVG9rZW46UlNlUWJBYzR1b25oMUZ4SlRrM2NJaEV6bk9jXzE2Nzk5Mjg0MTM6MTY3OTkzMjAxM19WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGU0NDkwNmJlYjZlMzc5YmIxNzBjZDRmMjQ1YmMzMWZfYTVLbm0yZ1I3c1Q2TlZrY2J0VHNjVEtmS2N4cThyYklfVG9rZW46STNVYmJVR3l0b1Vuczh4d3JTb2NjWXhubkdjXzE2Nzk5Mjg0NDM6MTY3OTkzMjA0M19WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDMxNzVkMzAwZTRiNTdhMjI4ODhlNTU5M2M1YzI3YzJfQnpXa1B3aGRsb2ZVcTR6aUpYTmFUenJTUmhBMkxPSDlfVG9rZW46VEVDYWJ5ZWNTb0RpMjR4WkdncmM1RGlObkJlXzE2Nzk5Mjg0NjA6MTY3OTkzMjA2MF9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=MmMzYWFjZWE5MTQ2ZDVjZmE4YWE2MzJjYmU2OWQ3ODhfVjB6c3BWRHFVOGNra2F0d3JxcGRGWXZQVm9GYmpqNWdfVG9rZW46QnF5S2JFcDlZb1V3ZGt4aDVUWWN2OE40bkpYXzE2Nzk5Mjg0NzA6MTY3OTkzMjA3MF9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ZThjMGI0YTEzNzVmMTRhNzUzYWUxZmJkMDhkMWVlMTRfVm9seGY0Q1FvazU3dnZLc3FjaHlxd2EzbXRsUWVwbWxfVG9rZW46TEJPaWJXVkhWb21pRGt4UEFrTmNpbnk1bmZoXzE2Nzk5Mjg0ODE6MTY3OTkzMjA4MV9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=YTc0YTk0NjUxNmRhMzE5YTZhMDBmMzMyNGJjOGEyYmRfVkF1Nk1lM2E3VzRIaGZTckpMNWpESnBWanV5bFBvdVRfVG9rZW46TXkyRmJVaFpRbzdaSXR4SW1TS2M2ZUNhbk5kXzE2Nzk5Mjg0ODY6MTY3OTkzMjA4Nl9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=M2JhN2FmYjY3MGI2MTYyYjEwYjgxNDBiNjYyZTJhZTJfV0hHbzJ5RHYwNjl0WHZSSHNvWVlKQ1hpaWFPQW9vVklfVG9rZW46RHlLYmJhY1hXb29ZOGZ4UXk0RmM2Z3BXbjFnXzE2Nzk5Mjg1MTY6MTY3OTkzMjExNl9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=N2M2OGE0MGE4MjNhMjZkYWQwYmE1NDhjODgxYzg2MWFfMEZCd2VnM0VBWDdlQTA2Unpxdzh6UThwZEdoVkx5ejBfVG9rZW46T3dMRmI1WnlMb21XYmt4TlpGcGNndXI5bndIXzE2Nzk5Mjg1OTk6MTY3OTkzMjE5OV9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=NGYyMGMyZmQxNjVhYmRhOTZlNTllZmNjMWQzZmY1OTdfaFFQNFB1clpKeTlTYnB4RkRDTXN0SjBLaHV3aUYxdEZfVG9rZW46TTJEZGJLVHgzb1FyWXd4NFBaSGNwZGFqbmNjXzE2Nzk5Mjg2MjI6MTY3OTkzMjIyMl9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ODg2OTMxZDJkNWUxN2I5ODA3ZDEwMGZjZDZhMTVjOWFfaU43Z1FmcVhGczhwdzVna1BPaXZlcFF2WWJCdjZNRzZfVG9rZW46UmpOTmJ3Tm9Zb0pYem94VFBocGMxR3NMblVjXzE2Nzk5Mjg2NDI6MTY3OTkzMjI0Ml9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=MTY4Mzc0ODhmZjhmYTAxMzcwZDM0YmJhZGQ2NmQxYjdfTzlpbzFXQzVib2lnQmFHSkExZ3JDT2J1MXFjWUVYNnBfVG9rZW46WlZRTWJrd0hHbzFxdm94VTc1T2NTYzNRbk9kXzE2Nzk5Mjg2NDk6MTY3OTkzMjI0OV9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=NTI1YjFlMTA3NmE0ZTlmYzRhYTA2M2U0ZWRmMmE4YWVfb2lnOThsRHNMY05seGZnUk9EdFRudm9JQjdLM05zOFpfVG9rZW46QlhBT2J1NEhXb2tPSEZ4N2RJNmNBZnA1bmplXzE2Nzk5Mjg2NDk6MTY3OTkzMjI0OV9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=MjEwZGFjZTZlYjA3MmRiY2ZkYWI2NTkzMmJiOTIxYjlfMXFxa0Z2ZUt3elI5N1c5SmFoRlZXbDBuTmVwcnFuWVJfVG9rZW46UmQxcGJmUVV0bzdBWFN4dkpFMGN3czhkblFnXzE2Nzk5Mjg2NjE6MTY3OTkzMjI2MV9WNA">
+<meta property="og:image" content="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=NzgzMjA0MGIwYWI4MmM2MWEzYTEyZjFhMTcyNjhlYTBfbHptNktDSjBpSEF2b2tUZmtUZFhzWjdETThyNzhCMGdfVG9rZW46SktONGJMZXREb0p6ODB4M1o0MGNHdFZPbmllXzE2Nzk5Mjg2NjE6MTY3OTkzMjI2MV9WNA">
 <meta property="article:published_time" content="2023-03-28T11:38:00.811Z">
-<meta property="article:modified_time" content="2023-03-28T11:38:00.811Z">
+<meta property="article:modified_time" content="2023-03-28T12:56:15.156Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:\Users\17207\AppData\Roaming\Typora\typora-user-images\image-20230328101748626.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -87,7 +114,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      Hello World
+      实验三
     </h1>
   
 
@@ -95,24 +122,93 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+        <p>姓名：臧传超          学号：202000130052        班级：20数据</p>
+<h1 id="实验步骤与内容"><a href="#实验步骤与内容" class="headerlink" title="实验步骤与内容"></a>实验步骤与内容</h1><h2 id="一、准备工作"><a href="#一、准备工作" class="headerlink" title="一、准备工作"></a>一、准备工作</h2><h3 id="1、node-js"><a href="#1、node-js" class="headerlink" title="1、node.js"></a>1、node.js</h3><p>Node.js是⼀种基于JavaScript语⾔的后端运⾏环境，它使⽤V8 JavaScript引擎来执⾏代码，并提供了许多内置</p>
+<p>模块，如⽂件系统、⽹络通信和流处理等，使开发⼈员能够构建⾼性能、可伸缩、实时和数据密集型应⽤程序。Node.js的主要⽤途是构建Web应⽤程序、API和⽹络服务器，它可以轻松地处理并发请求、⾮阻塞I&#x2F;O操作和事</p>
+<p>件驱动编程。Node.js还可以⽤于构建命令⾏⼯具、桌⾯应⽤程序、物联⽹设备、游戏服务器和实时通信应⽤程序</p>
+<p>等。</p>
+<p>Node.js具有以下⼏个特点：</p>
+<ol>
+<li>事件驱动和⾮阻塞I&#x2F;O模型，能够处理⼤量并发请求；</li>
+<li>通过NPM（Node.js包管理器）提供了丰富的第三⽅模块和库；</li>
+<li>基于JavaScript语⾔，可以使⽤同⼀种语⾔编写前端和后端代码，⽅便前端开发⼈员转向后端开发；</li>
+<li>可以运⾏于多种操作系统，如Windows、Linux和macOS等；</li>
+<li>⾼效、轻量级、可扩展和易于学习和使⽤。</li>
+</ol>
+<p>npm 模块的安装：nodejs 下的包管理器。，下载好后，双击.msi ⽂件开始 安装，设置协议并选择安装路径。由</p>
+<p>于 nodejs 在安装时会⾃动设置环境 变量，因此只需要根据默认配置继续安装。最终安装完成。具体安装过程如下</p>
+<p>所⽰：</p>
+<p><img src="C:\Users\17207\AppData\Roaming\Typora\typora-user-images\image-20230328101748626.png" alt="image-20230328101748626"></p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=N2YyMTM4NWY2M2MwZDE0NDY0NGQ4OGUxYjE5ZjBiM2FfbTNZYllzZEFmS3h3VHpUOGlVSHQxZ2x1Y1czbkt1THRfVG9rZW46RktwQWJNZHZrb1ZjdWp4NW5kNWM5cmN1bjJmXzE2Nzk5MjgwMjk6MTY3OTkzMTYyOV9WNA" alt="img"></p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=NWVhZWNmZjJhMmI2NThjY2ViNTgxNTVlNjk5YTMyYWZfVTNxQ3RSaUEzRmdhZ25vdVRERUk4VEtNNENCWENvZFZfVG9rZW46T2FjMWIyN2hEbzA1Rzh4clBibmNNZWhhbjFkXzE2Nzk5MjgwMzc6MTY3OTkzMTYzN19WNA" alt="img"></p>
+<p>为了验证node.js是否安装成功，我们在终端分别输入node -v以及npm -v来验证node以及npm的版本信息，具体如下所示：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTEyMDUyZTc1MTJjYWQxMzhlYWViMDMyNWQ0NWRhYThfa2NySWhnNjRLcUR4TDNPR1ZRYVh0T2tuUlVYQmZoOWZfVG9rZW46VFhVSGIyeFlsb3hQVzR4T1pqdGNhTkxnbnJnXzE2Nzk5MjgwNDk6MTY3OTkzMTY0OV9WNA" alt="img"></p>
+<p>node.js界面如下所示：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=YWQ2YWY2ZTQ3ZjE0Yjg1YWRhM2M3YzY4Y2E1OTkyMmJfOFZON252YmxFOW1SbnE4SDlGeUdJVjI0cDlOTDQ5ME9fVG9rZW46Qlp6WmJUc1Jtb2tUaXh4azlSSWNPTGI2bndoXzE2Nzk5MjgwNzg6MTY3OTkzMTY3OF9WNA" alt="img"></p>
+<h3 id="2、git"><a href="#2、git" class="headerlink" title="2、git"></a>2、git</h3><p>Git是一个版本控制系统，主要用于跟踪代码的修改历史和协作开发。它是由Linus Torvalds在2005年创建的，被广泛应用于软件开发、数据分析等领域。</p>
+<p>Git的主要功能包括：</p>
+<ol>
+<li>版本控制：Git可以记录代码的每一个修改，并允许用户比较和恢复不同版本的代码。</li>
+<li>分支管理：Git支持创建和管理多个分支，使得多人协作开发变得更加容易和高效。</li>
+<li>合并管理：Git支持将不同分支的代码合并为一个代码库。</li>
+<li>远程仓库管理：Git支持将本地代码库同步到远程代码库，实现多人协作开发。</li>
+<li>代码审查：Git支持在团队中进行代码审查，以确保代码质量和安全性。</li>
+</ol>
+<p>首先我们进入官网选择相应的版本下载安装包，双击安装可执行文件，具体如下所示：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjE1NmVhNDgxMjkzNjY4OTVkNTY3NDFjYzJiMDdlODVfZnVQbmhiMjFHaEpVSUlJdFQ4d05UWTdpekFwZEl6M3lfVG9rZW46WElkeWJEVGdpb2x4Tnd4NEoxRWNlY0Uzbm9BXzE2Nzk5MjgzMjA6MTY3OTkzMTkyMF9WNA" alt="img"></p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=MjJjOTc5ZWY3NmIxNDE4MTVkMmE3NWEyYmY4MDhjNTZfaUV6VFdvZmxUdWgwSEI2YzFtQzc1cHQ4aUNkTFZtejZfVG9rZW46RWpYYmI5QmFlbzl4b2t4RmxtNWNNc2FCbnJjXzE2Nzk5MjgzMjk6MTY3OTkzMTkyOV9WNA" alt="img"></p>
+<p>开始菜单目录名设置以及开始菜单目录名设置 ：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=YzQ2ZTVhMzRlYmFhZWU2ZmY2ZTBiNWU1NjI1OTc3ZjlfaDMwQkVadXhRZ1Z1RHVacHlYMXJZRTA5eFl5eG5SV1JfVG9rZW46QktwWWJubWs3b3gwTEF4OTY1QmNXblg4bnNnXzE2Nzk5MjgzNDE6MTY3OTkzMTk0MV9WNA" alt="img"></p>
+<p>选择安装目录并选择相应的组件，包括选择 Git 文件默认的编辑器</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=MDU5N2I2OTNmNDg3MjRlZmFmNjQ1NTFjMWM3ODZjMzhfczFqU2d2VG9rUVhUcngwRVdheHlSMDBHZzc4SEhzWE9fVG9rZW46T0ZiS2JiT29ub0NnbGh4OGdETWNWR0xxbkRnXzE2Nzk5MjgzNTc6MTY3OTkzMTk1N19WNA" alt="img"></p>
+<p>调整PATH 环境，选择 HTTPS 后端传输：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTI3YWRkYzM4MjkxODZhZDg0MTMwOWUyYzU4NjIxZGZfeUZwMWI5NnJoN3UwMTZXSWVuQzdEcEtROExrWnd3bkRfVG9rZW46UTJ2ZmI2TWo4b1hOS1Z4U2VQUWNQQlg0bkNiXzE2Nzk5MjgzNzE6MTY3OTkzMTk3MV9WNA" alt="img"></p>
+<p>配置行尾符号转换，同时配置终端模拟器以与 Git Bash 一起使用</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=MTJiZTExNTVhMWZiZDI5N2FjNzQ0ZWY2NGExZGRhYmNfb09TTnN3TDdIc0ZrQk1reUQ2VldIZVNaUnZWN2ZsdDdfVG9rZW46Q09BOGIwNkdnb2o5bFN4MEFYWmNydFNYbnhoXzE2Nzk5MjgzOTA6MTY3OTkzMTk5MF9WNA" alt="img"></p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTk3NGJkNGM1YzJiZGRiOTZjMzQwNTk3YzFhZjQwOTBfcGpoMzdVVVEzZk1MQ2lEUVl6NFpuVzkzcjQwcXBxR0NfVG9rZW46R1VHRmJPZUQ4bzJpVE14clk3d2NKQm9abjZiXzE2Nzk5Mjg0MDI6MTY3OTkzMjAwMl9WNA" alt="img"></p>
+<p>安装完成界面如下所示：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=MDc5MjViYWRiNjhlNDFlMWI4N2JkZTMzYmE0Y2I0MTNfTHcxUXU4QTIyVTRvSEU1clhZR0NJN0tvRVZzeFI4OW5fVG9rZW46UlNlUWJBYzR1b25oMUZ4SlRrM2NJaEV6bk9jXzE2Nzk5Mjg0MTM6MTY3OTkzMjAxM19WNA" alt="img"></p>
+<h3 id="3、Hexo"><a href="#3、Hexo" class="headerlink" title="3、Hexo"></a>3、Hexo</h3><p>Hexo是一个基于Node.js的静态博客框架，它可以帮助用户快速地搭建一个静态博客网站。使用Hexo，用户只需要编写Markdown格式的文章，Hexo会将其渲染成HTML静态页面，然后部署到服务器上，访问者就可以通过浏览器访问这些页面。</p>
+<p>Hexo的优点包括：</p>
+<ol>
+<li>快速搭建：Hexo使用简单，安装和配置相对简单，可以快速地搭建一个静态博客网站。</li>
+<li>高效运行：由于是静态网站，不需要动态生成页面，所以访问速度比动态网站快很多。</li>
+<li>支持多主题：Hexo提供了很多主题和插件，用户可以根据自己的需要进行选择和修改。</li>
+<li>支持多平台：Hexo可以轻松部署到各种云平台、静态网站托管平台或自建服务器上。</li>
+</ol>
+<p>在安装时，首先打开命令提示符输入如下指令：npm -install -g hexo-cli进行安装，具体如下所示：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGU0NDkwNmJlYjZlMzc5YmIxNzBjZDRmMjQ1YmMzMWZfYTVLbm0yZ1I3c1Q2TlZrY2J0VHNjVEtmS2N4cThyYklfVG9rZW46STNVYmJVR3l0b1Vuczh4d3JTb2NjWXhubkdjXzE2Nzk5Mjg0NDM6MTY3OTkzMjA0M19WNA" alt="img"></p>
+<p>等待安装完成后，输入一下命令创建一个新的Hexo博客，这里我们名为“myblog”的新文件夹，并在其中安装所有的所需的文件和目录，具体如下所示。</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDMxNzVkMzAwZTRiNTdhMjI4ODhlNTU5M2M1YzI3YzJfQnpXa1B3aGRsb2ZVcTR6aUpYTmFUenJTUmhBMkxPSDlfVG9rZW46VEVDYWJ5ZWNTb0RpMjR4WkdncmM1RGlObkJlXzE2Nzk5Mjg0NjA6MTY3OTkzMjA2MF9WNA" alt="img"></p>
+<p>进入mublog文件夹，输入如下指令安装Hexo的依赖项，具体如下所示：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=MmMzYWFjZWE5MTQ2ZDVjZmE4YWE2MzJjYmU2OWQ3ODhfVjB6c3BWRHFVOGNra2F0d3JxcGRGWXZQVm9GYmpqNWdfVG9rZW46QnF5S2JFcDlZb1V3ZGt4aDVUWWN2OE40bkpYXzE2Nzk5Mjg0NzA6MTY3OTkzMjA3MF9WNA" alt="img"></p>
+<p>完成后，输入以下指令启动Hexo服务器，这将启动一个本地服务器，可以通过浏览器访问：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ZThjMGI0YTEzNzVmMTRhNzUzYWUxZmJkMDhkMWVlMTRfVm9seGY0Q1FvazU3dnZLc3FjaHlxd2EzbXRsUWVwbWxfVG9rZW46TEJPaWJXVkhWb21pRGt4UEFrTmNpbnk1bmZoXzE2Nzk5Mjg0ODE6MTY3OTkzMjA4MV9WNA" alt="img"></p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=YTc0YTk0NjUxNmRhMzE5YTZhMDBmMzMyNGJjOGEyYmRfVkF1Nk1lM2E3VzRIaGZTckpMNWpESnBWanV5bFBvdVRfVG9rZW46TXkyRmJVaFpRbzdaSXR4SW1TS2M2ZUNhbk5kXzE2Nzk5Mjg0ODY6MTY3OTkzMjA4Nl9WNA" alt="img"></p>
+<h3 id="4、Github仓库"><a href="#4、Github仓库" class="headerlink" title="4、Github仓库"></a>4、Github仓库</h3><p>这里我们需要创建一个github仓库，这里我们以用户名ZY-ZCC为例子，新简明为ZY-ZCC。github.io的仓库，具体如下所示：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=M2JhN2FmYjY3MGI2MTYyYjEwYjgxNDBiNjYyZTJhZTJfV0hHbzJ5RHYwNjl0WHZSSHNvWVlKQ1hpaWFPQW9vVklfVG9rZW46RHlLYmJhY1hXb29ZOGZ4UXk0RmM2Z3BXbjFnXzE2Nzk5Mjg1MTY6MTY3OTkzMjExNl9WNA" alt="img"></p>
+<h2 id="二、连接"><a href="#二、连接" class="headerlink" title="二、连接"></a>二、连接</h2><h3 id="设置全局变量"><a href="#设置全局变量" class="headerlink" title="设置全局变量"></a>设置全局变量</h3><p>这里我们先设置好用户名及使用的邮箱，具体如下所示：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=N2M2OGE0MGE4MjNhMjZkYWQwYmE1NDhjODgxYzg2MWFfMEZCd2VnM0VBWDdlQTA2Unpxdzh6UThwZEdoVkx5ejBfVG9rZW46T3dMRmI1WnlMb21XYmt4TlpGcGNndXI5bndIXzE2Nzk5Mjg1OTk6MTY3OTkzMjE5OV9WNA" alt="img"></p>
+<h3 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h3><p>我们利用如下命令利用rsa加密方法生成密钥（这里在输入指令后狂按Enter即可），具体如下所示：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=NGYyMGMyZmQxNjVhYmRhOTZlNTllZmNjMWQzZmY1OTdfaFFQNFB1clpKeTlTYnB4RkRDTXN0SjBLaHV3aUYxdEZfVG9rZW46TTJEZGJLVHgzb1FyWXd4NFBaSGNwZGFqbmNjXzE2Nzk5Mjg2MjI6MTY3OTkzMjIyMl9WNA" alt="img"></p>
+<h3 id="查看密钥"><a href="#查看密钥" class="headerlink" title="查看密钥"></a>查看密钥</h3><p>在具体的目录下找到如下两个文件，其中id_rsa.pub即为公钥，id_rsa即为私钥，具体如下所示：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=ODg2OTMxZDJkNWUxN2I5ODA3ZDEwMGZjZDZhMTVjOWFfaU43Z1FmcVhGczhwdzVna1BPaXZlcFF2WWJCdjZNRzZfVG9rZW46UmpOTmJ3Tm9Zb0pYem94VFBocGMxR3NMblVjXzE2Nzk5Mjg2NDI6MTY3OTkzMjI0Ml9WNA" alt="img"></p>
+<h3 id="密钥配对"><a href="#密钥配对" class="headerlink" title="密钥配对"></a>密钥配对</h3><p>在 github 的设置中找到 SSH and GPG keys 选项并新建 SSH。git bash 中生成密钥（公钥）并将输出粘贴到 github 中新建的 ssh 对应位置，完 成密钥的配对，具体如下所示：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=MTY4Mzc0ODhmZjhmYTAxMzcwZDM0YmJhZGQ2NmQxYjdfTzlpbzFXQzVib2lnQmFHSkExZ3JDT2J1MXFjWUVYNnBfVG9rZW46WlZRTWJrd0hHbzFxdm94VTc1T2NTYzNRbk9kXzE2Nzk5Mjg2NDk6MTY3OTkzMjI0OV9WNA" alt="img"></p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=NTI1YjFlMTA3NmE0ZTlmYzRhYTA2M2U0ZWRmMmE4YWVfb2lnOThsRHNMY05seGZnUk9EdFRudm9JQjdLM05zOFpfVG9rZW46QlhBT2J1NEhXb2tPSEZ4N2RJNmNBZnA1bmplXzE2Nzk5Mjg2NDk6MTY3OTkzMjI0OV9WNA" alt="img"></p>
+<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><p>打开博客根目录下的_config.yml 文件，这是博客的 配置文件，在这里可以修改与博客相关的各种信息。修改最后的信息为如下所示：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=MjEwZGFjZTZlYjA3MmRiY2ZkYWI2NTkzMmJiOTIxYjlfMXFxa0Z2ZUt3elI5N1c5SmFoRlZXbDBuTmVwcnFuWVJfVG9rZW46UmQxcGJmUVV0bzdBWFN4dkpFMGN3czhkblFnXzE2Nzk5Mjg2NjE6MTY3OTkzMjI2MV9WNA" alt="img"></p>
+<h3 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h3><p>这里验证是否配对成功，输入如下指令，具体如下所示：</p>
+<p><img src="https://jk54q5807b.feishu.cn/space/api/box/stream/download/asynccode/?code=NzgzMjA0MGIwYWI4MmM2MWEzYTEyZjFhMTcyNjhlYTBfbHptNktDSjBpSEF2b2tUZmtUZFhzWjdETThyNzhCMGdfVG9rZW46SktONGJMZXREb0p6ODB4M1o0MGNHdFZPbmllXzE2Nzk5Mjg2NjE6MTY3OTkzMjI2MV9WNA" alt="img"></p>
+<h2 id="三、个人模板修改"><a href="#三、个人模板修改" class="headerlink" title="三、个人模板修改"></a>三、个人模板修改</h2><p>为了修饰个人的博客，可以在 hexi 框架内选择相应的模板并进行配置。在本次实验中 以 icaurs 模板为例。 将需要的主题下载到本地的 thems 文件中,然后修改_config.yml 文件的主题为当前下 载的主题</p>
+<h1 id="结论分析与体会："><a href="#结论分析与体会：" class="headerlink" title="结论分析与体会："></a>结论分析与体会：</h1><p>通过这次实验，学会了如何创建自己的博客，并且将博客部署到 github 上，学会了将自己 需要上传的东西如作业上传到博客来方便自己记录与学习。</p>
+<p>Hexo是一个基于Node.js的静态博客生成器，它的主要特点是快速、简单和易于使用。它采用了Markdown语言进行内容编辑，同时支持主题和插件的定制和扩展。</p>
+<p>通过使用Hexo，我对如何创建、编辑和发布博客文章有了一定的了解。也了解了Hexo的目录结构和配置文件，并能够根据自己的需要进行相应的修改和定制。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/03/28/hello-world/" data-id="clfs92nkm00002cthab1if9dp" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2023/03/28/hello-world/" data-id="clfs9hyq70000ioth5nwu1qdr" data-title="实验三" class="article-share-link">Share</a>
       
       
       
@@ -153,7 +249,7 @@
       <ul>
         
           <li>
-            <a href="/2023/03/28/hello-world/">Hello World</a>
+            <a href="/2023/03/28/hello-world/">实验三</a>
           </li>
         
       </ul>
